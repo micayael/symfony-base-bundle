@@ -1,5 +1,5 @@
 {
-    "name": "micayael/base-bundle",
+    "name": "micayael/symfony-base-bundle",
     "type": "symfony-bundle",
     "description": "Proyecto base para creación de bundles para symfony",
     "license": "MIT",
