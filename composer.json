@@ -1,0 +1,26 @@
+{
+    "name": "micayael/base-bundle",
+    "type": "symfony-bundle",
+    "description": "Proyecto base para creación de bundles para symfony",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juan Ardissone (micayael)",
+            "email": "micayael@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4.0|>=8.0",
+        "symfony/config": "^5.3",
+        "symfony/dependency-injection": "^5.3",
+        "symfony/twig-pack": "^1.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Micayael\\Bundle\\BaseBundle\\": "src/"
+        }
+    }
+}
